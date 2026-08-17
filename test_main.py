@@ -25,7 +25,6 @@ def test_longest_run2():
 	assert longest_run([12,12,12,8,12,12,0,12,1], 12) == 3
 	assert longest_run([12,12,12,8,12,12,0,12,12,12,12], 12) == 4
 
-# 2 pts
 def test_longest_run_hard():
     """
     This is a hard corner case that requires left_size and
